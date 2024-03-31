@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="hero">
+       <div class="hero-content">
+            <h1 class="hero-title">Order. Eat. Repeat.</h1>
+            <p class="hero-description">Bringing original taste of authentic food form Patilkaki</p>
+            <a href="#" id="learn" class="hero-btn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="founder-section">
+        <div class="container">
+        <div class="founder-content">
+            <h2>Meet Our Visionary Founder</h2>
+            <img src="2.png" alt="Founder Image">
+            <p>Darsheel Savla, a co-founder at PatilKaki, is a charismatic and creative powerhouse who infuses his passion for food, people, and brand building into everything he does. With an unshakable drive and an insatiable appetite for culinary exploration, he's determined to bring the legendary recipes of PatilKaki to the world.</p>
+            <p>Also, a visionary leader with a passion for building D2C businesses, Darsheel is rolling out his new consultancy programme to help fellow founders and entrepreneurs navigate the challenges of going Direct-2-Consumer.</p>
+        </div>
+    </div>
+    </section>
+
+    <section class="why-choose-dishil container py-5">
+        <h2>Indulge in Authentic Flavors: Why Choose Dishil?</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <i class="fa-solid fa-mortar-pestle fa-3x text-secondary mb-3"></i>
+      <h3>Authentic Recipes</h3>
+      <p>Passed down for generations, our recipes capture the true essence of traditional Indian flavors.</p>
+    </div>
+    <div class="col">
+      <i class="fa-solid fa-leaf fa-3x text-secondary mb-3"></i>
+      <h3>Fresh Ingredients</h3>
+      <p>We use only the freshest, high-quality ingredients for unbeatable taste and health benefits.</p>
+    </div>
+    <div class="col">
+    <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="fa-solid bi bi-emoji-heart-eyes fa-3x text-secondary mb-3" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
+        <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.5 4.5 0 0 1 7.965 13a4.5 4.5 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242s1.46-.118 2.152-.242a27 27 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434m6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434" />
+    </svg>
+    <h3>Handmade with Care</h3>
+    <p>Each creation is crafted with love and dedication, ensuring a personal touch to every bite.</p>
+</div>
+</div>
+<p class="call-to-action text-center mt-5">Explore our delicious offerings today!</p>
+    </section>
+
+    <section id="cta" class="cta-section">
+        <div class="container">
+        <h2>Ready to take the next step?</h2>
+        <p>Click the button below to get started!</p>
+        <button id="ctaButton" class="btn btn-warning">Let's Go</button>
+    </div>
+    </section>
+
+    <section>
+        <!-- <div id="timer-container">
+        <div id="timer-message">Sign up now!</div>
+        <div id="timer">10:00</div>
+    </div> -->
+
+<!-- Signup form -->
+<div id="signupForm1" class="signup-form text-center">
+        <h2>Login to Sign Up</h2>
+
+        <form method="post" action="#">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+        </form>
+
+        <button id="signup" class="btn btn-warning">Signup</button>
+
+        <button id="closeFormBtn" class="btn btn-danger">Close</button>
+    </div>
+    </section>
+
+    <!-- Login link -->
+    <div class="position-absolute top-0 end-0 p-3">
+        <a href="#" class="btn btn-warning">Login <i class="fa-solid fa-door-open"></i></a>
+    </div>
+
+    <div id="signupModal" class="modal">
+    <div class="modal-content">
+        <span id="closeModalBtn" class="close-btn">×</span>
+        <form action="#" method="post">
+
+           <center> <h2>Discount 30% off</h2>
+            <small>Enter Your Details and win a cupon <br> worth 10% to 30% discount </small></center>
+          
+  <div class="mb-3">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+  </div>
+
+    <div class="mb-3">
+    <label for="exampleInputPhone1" class="form-label">Phone Number</label>
+    <input type="tel" class="form-control" id="phone">
+    
+  </div>
+            <button type="button" id="generateCouponBtn" class="btn btn-warning">Show Me Coupon</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+    <footer>
+        <p>All Rights Reserved &copy; 2024 PatilKaki</p>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/b035b40dd6.js" crossorigin="anonymous"></script>
+
+
+    <script>
+    function startTimer(duration) {
+    let timer = duration;
+    setInterval(function () {
+        if (timer <= 0) {
+            clearInterval();
+            let signUpBoxClosed = localStorage.getItem('signUpBoxClosed');
+            if (signUpBoxClosed !== 'true') {
+                // Show signup form after countdown completes
+                document.getElementById('signupForm1').style.display = 'block';
+            }
+        } else {
+            let minutes = Math.floor(timer / 60);
+            let seconds = timer % 60;
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            let display = document.querySelector('#timer');
+
+            // display.textContent = minutes + ":" + seconds;
+
+            // Change color to red if less than 2 minutes left, otherwise yellow
+
+            if (timer < 120) {
+               
+                display.style.color = 'red';
+            } else {
+                display.style.color = 'yellow';
+            }
+        }
+
+        timer -= 1;
+    }, 1000); // 1 second
+}
+
+window.onload = function () {
+    let tenMinutes = 600;
+    startTimer(tenMinutes);
+    
+    document.getElementById('closeFormBtn').addEventListener('click', function () {
+        document.getElementById('signupForm1').style.display = 'none';
+        localStorage.setItem('signUpBoxClosed', 'true');
+    });
+};
+
+
+
+document.getElementById('ctaButton').addEventListener('click', function () {
+    alert("Let's go to the next page!!!");
+});
+
+document.getElementById('learn').addEventListener('click', function () {
+    alert('Open the next page!');
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Timer to show signup form after 15 seconds
+    setTimeout(function () {
+        showModal(); // Changed to showModal function call
+    }, 15000); // Changed timeout to 15000 milliseconds (15 seconds)
+
+    // Close signup form modal when the close button is clicked
+    document.getElementById('closeModalBtn').addEventListener('click', function () {
+        document.getElementById('signupModal').style.display = 'none'; // Changed the element ID to 'signupModal'
+    });
+
+    // Function to show signup form modal
+    function showModal() {
+        document.getElementById('signupModal').style.display = 'block'; // Changed the element ID to 'signupModal'
+    }
+});
+
+
+document.addEventListener('DOMContentLoaded', function() {
+            // Function to generate a random alphanumeric coupon code
+            function generateCoupon() {
+                const characters = 'abcdefghijklmnopqrstuvwxyz0123456789';
+                let couponCode = '';
+                for (let i = 0; i < 8; i++) {
+                    couponCode += characters.charAt(Math.floor(Math.random() * characters.length));
+                }
+                return couponCode;
+            }
+
+            // Event listener for the button click
+            document.getElementById('generateCouponBtn').addEventListener('click', function () {
+                // Check if form fields are filled
+                const phone = document.getElementById('phone').value;
+                const email = document.getElementById('email').value;
+                if (phone && email) {
+                    // Generate coupon code
+                    const coupon = generateCoupon();
+                    alert('Your coupon code is: ' + coupon);
+                } else {
+                    // Alert user to fill in the details
+                    alert('Please enter your phone number and email address to generate the coupon.');
+                }
+            });
+        });
+
+
+</script>
+
+<script>
+        
+    </script>
+</body>
+
+</html>
